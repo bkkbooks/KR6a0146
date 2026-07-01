@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6a0146/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玉耶女經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T02/T02n0142b.xml
+    old_id: T02n0142b
+hash: sha256:265cdf5689a179edd7b7b1920305e8fe1708db08738ab919636432ff494a554a

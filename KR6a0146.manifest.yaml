@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6a0146/v1
+canonical_location: https://kanripo.org/bkk/KR6a0146/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 玉耶女經
+  identifiers:
+    alt_id:
+    - T02n0142b
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T02/T02n0142b.xml
+    old_id: T02n0142b
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0146_000.yaml, hash: 'sha256:265cdf5689a179edd7b7b1920305e8fe1708db08738ab919636432ff494a554a'}
+  - {seq: 1, filename: KR6a0146_001.yaml, hash: 'sha256:8d5961fa46e5514149e7fede279bdb04b30b657f568487f14516755b9386b3ed'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0146_001.markers.yaml, hash: 'sha256:bd4eb07907c9b4d4b52453b0328b20a3fcba3a08020b733c3b371e28931eda3c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0146_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1467
+  label: 玉耶女經
+  type: juan
+  level: 1
+hash: sha256:346fd4dcb2057c240bbd126f1126ff4a9d5736bb6cfb68baae784c4e32e437ea
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
